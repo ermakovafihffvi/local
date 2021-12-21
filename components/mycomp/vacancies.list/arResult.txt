@@ -1,0 +1,4 @@
+Array
+(
+    [LAST_ITEM_IBLOCK_ID] => 4
+)

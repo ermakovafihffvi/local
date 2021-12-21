@@ -1,0 +1,195 @@
+Array
+(
+    [view] => Array
+        (
+        )
+
+    [edit] => Array
+        (
+            [edit_element] => Array
+                (
+                    [TEXT] => Изменить вакансию
+                    [TITLE] => Изменить вакансию
+                    [ACTION] => javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [ACTION_URL] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => (new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [DEFAULT] => 
+                    [ICON] => bx-context-toolbar-edit-icon
+                    [ID] => bx-context-toolbar-edit-element
+                )
+
+            [add_element] => Array
+                (
+                    [TEXT] => Добавить вакансию
+                    [TITLE] => Добавить вакансию
+                    [ACTION] => javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [ACTION_URL] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => (new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [ICON] => bx-context-toolbar-create-icon
+                    [ID] => bx-context-toolbar-add-element
+                )
+
+            [0] => Array
+                (
+                    [SEPARATOR] => Y
+                    [HREF] => 
+                )
+
+            [delete_element] => Array
+                (
+                    [TEXT] => Удалить вакансию
+                    [TITLE] => Удалить вакансию
+                    [ACTION] => javascript:if(confirm('Будет удалена вся информация, связанная с этой записью. Продолжить?'))jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ACTION_URL] => /bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => if(confirm('Будет удалена вся информация, связанная с этой записью. Продолжить?'))jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ICON] => bx-context-toolbar-delete-icon
+                    [ID] => bx-context-toolbar-delete-element
+                )
+
+        )
+
+    [configure] => Array
+        (
+            [edit_element] => Array
+                (
+                    [TEXT] => Изменить вакансию
+                    [TITLE] => Изменить вакансию
+                    [ACTION] => javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [ACTION_URL] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => (new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [DEFAULT] => 
+                    [ICON] => bx-context-toolbar-edit-icon
+                    [ID] => bx-context-toolbar-edit-element
+                )
+
+            [add_element] => Array
+                (
+                    [TEXT] => Добавить вакансию
+                    [TITLE] => Добавить вакансию
+                    [ACTION] => javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [ACTION_URL] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => (new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [ICON] => bx-context-toolbar-create-icon
+                    [ID] => bx-context-toolbar-add-element
+                )
+
+            [0] => Array
+                (
+                    [SEPARATOR] => Y
+                    [HREF] => 
+                )
+
+            [delete_element] => Array
+                (
+                    [TEXT] => Удалить вакансию
+                    [TITLE] => Удалить вакансию
+                    [ACTION] => javascript:if(confirm('Будет удалена вся информация, связанная с этой записью. Продолжить?'))jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ACTION_URL] => /bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => if(confirm('Будет удалена вся информация, связанная с этой записью. Продолжить?'))jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ICON] => bx-context-toolbar-delete-icon
+                    [ID] => bx-context-toolbar-delete-element
+                )
+
+        )
+
+    [submenu] => Array
+        (
+            [edit_element] => Array
+                (
+                    [TEXT] => Изменить вакансию
+                    [TITLE] => Изменить вакансию
+                    [ACTION] => javascript:jsUtils.Redirect([], '/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ACTION_URL] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&ID=53&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [DEFAULT] => 
+                    [ICON] => bx-context-toolbar-edit-icon
+                    [ID] => bx-context-toolbar-edit-element
+                )
+
+            [add_element] => Array
+                (
+                    [TEXT] => Добавить вакансию
+                    [TITLE] => Добавить вакансию
+                    [ACTION] => javascript:jsUtils.Redirect([], '/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ACTION_URL] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ICON] => bx-context-toolbar-create-icon
+                    [ID] => bx-context-toolbar-add-element
+                )
+
+            [0] => Array
+                (
+                    [SEPARATOR] => Y
+                    [HREF] => 
+                )
+
+            [delete_element] => Array
+                (
+                    [TEXT] => Удалить вакансию
+                    [TITLE] => Удалить вакансию
+                    [ACTION] => javascript:if(confirm('Будет удалена вся информация, связанная с этой записью. Продолжить?'))jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ACTION_URL] => /bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => if(confirm('Будет удалена вся информация, связанная с этой записью. Продолжить?'))jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&action=delete&ID=53&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ICON] => bx-context-toolbar-delete-icon
+                    [ID] => bx-context-toolbar-delete-element
+                )
+
+            [1] => Array
+                (
+                    [SEPARATOR] => Y
+                    [HREF] => 
+                )
+
+            [element_list] => Array
+                (
+                    [TEXT] => Вакансии
+                    [TITLE] => Вакансии
+                    [ACTION] => javascript:jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_el_y=Y&clear_filter=Y&apply_filter=Y')
+                    [ACTION_URL] => /bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_el_y=Y&clear_filter=Y&apply_filter=Y
+                    [ONCLICK] => jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_el_y=Y&clear_filter=Y&apply_filter=Y')
+                    [ID] => bx-context-toolbar-elements-list
+                )
+
+            [section_list] => Array
+                (
+                    [TEXT] => Разделы
+                    [TITLE] => Разделы
+                    [ACTION] => javascript:jsUtils.Redirect([], '/bitrix/admin/iblock_section_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_section_section=0')
+                    [ACTION_URL] => /bitrix/admin/iblock_section_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_section_section=0
+                    [ONCLICK] => jsUtils.Redirect([], '/bitrix/admin/iblock_section_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_section_section=0')
+                    [ID] => bx-context-toolbar-sections-list
+                )
+
+            [edit_iblock] => Array
+                (
+                    [TEXT] => Свойства инфоблока &quot;Вакансии&quot;
+                    [TITLE] => Свойства инфоблока &quot;Вакансии&quot;
+                    [ACTION] => javascript:jsUtils.Redirect([], '/bitrix/admin/iblock_edit.php?type=vacancies&lang=ru&ID=4&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ACTION_URL] => /bitrix/admin/iblock_edit.php?type=vacancies&lang=ru&ID=4&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+                    [ONCLICK] => jsUtils.Redirect([], '/bitrix/admin/iblock_edit.php?type=vacancies&lang=ru&ID=4&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY')
+                    [ID] => bx-context-toolbar-edit-iblock
+                )
+
+        )
+
+    [intranet] => Array
+        (
+            [0] => Array
+                (
+                    [TEXT] => Добавить вакансию
+                    [TITLE] => Добавить вакансию
+                    [ICON] => add
+                    [ONCLICK] => javascript:(new BX.CAdminDialog({'content_url':'/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=4&type=vacancies&lang=ru&force_catalog=&filter_section=0&IBLOCK_SECTION_ID=0&bxpublic=Y&from_module=iblock&return_url=%2Fmycomponent.php%3Fbitrix_include_areas%3DY%26clear_cache%3DY&siteTemplateId=furniture_pale-blueM','width':'700','height':'400'})).Show()
+                    [SORT] => 1000
+                )
+
+            [element_list] => Array
+                (
+                    [TEXT] => Вакансии
+                    [TITLE] => Вакансии
+                    [ICON] => settings
+                    [ONCLICK] => javascript:jsUtils.Redirect([], '/bitrix/admin/iblock_element_admin.php?IBLOCK_ID=4&type=vacancies&lang=ru&find_el_y=Y&clear_filter=Y&apply_filter=Y')
+                    [SORT] => 1010
+                )
+
+        )
+
+)
